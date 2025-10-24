@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopli Couture - Vintage Clothes Shop & Cocktail Bar</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <h1 class="site-title">Kopli Couture</h1>
+          <p class="site-tagline">Vintage by Day, Cocktails by Night</p>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events & Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h2 class="hero-title">Welcome to Kopli Couture</h2>
+          <p class="hero-subtitle">Where Soviet nostalgia meets modern elegance</p>
+          <div class="hero-cta">
+            <a href="about.html" class="btn btn-primary">Discover Our Story</a>
+            <a href="events.html" class="btn btn-secondary">Upcoming Events</a>
+          </div>
+        </div>
+        <div class="time-toggle" id="timeToggle">
+          <span class="toggle-label">Day</span>
+          <button class="toggle-switch" id="toggleBtn" aria-label="Toggle day/night mode"></button>
+          <span class="toggle-label">Night</span>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🕰️</div>
+              <h3>Vintage Clothes Shop</h3>
+              <p>Curated collection of authentic Soviet-era fashion. From military jackets to floral dresses, discover pieces with stories to tell.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🍸</div>
+              <h3>Cocktail Bar</h3>
+              <p>As evening falls, we transform into an intimate cocktail lounge. Classic drinks with a retro twist in a cozy atmosphere.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🎨</div>
+              <h3>Artist Hub</h3>
+              <p>A gathering place for local artists and vintage enthusiasts. Monthly exhibitions, live music, and creative workshops.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="hours-section">
+        <div class="container">
+          <h2 class="section-title">Opening Hours</h2>
+          <div class="hours-grid">
+            <div class="hours-card shop-hours">
+              <h3>Vintage Shop</h3>
+              <ul class="hours-list">
+                <li><span>Tuesday - Friday</span><span>11:00 - 18:00</span></li>
+                <li><span>Saturday</span><span>12:00 - 17:00</span></li>
+                <li><span>Sunday - Monday</span><span>Closed</span></li>
+              </ul>
+            </div>
+            <div class="hours-card bar-hours">
+              <h3>Cocktail Bar</h3>
+              <ul class="hours-list">
+                <li><span>Wednesday - Friday</span><span>18:00 - 23:00</span></li>
+                <li><span>Saturday</span><span>19:00 - 01:00</span></li>
+                <li><span>Sunday - Tuesday</span><span>Closed</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-preview">
+        <div class="container">
+          <h2 class="section-title">Gallery</h2>
+          <div class="gallery-grid" id="gallery">
+            <div class="gallery-item" data-category="vintage">
+              <div class="gallery-placeholder vintage-1"></div>
+            </div>
+            <div class="gallery-item" data-category="bar">
+              <div class="gallery-placeholder bar-1"></div>
+            </div>
+            <div class="gallery-item" data-category="vintage">
+              <div class="gallery-placeholder vintage-2"></div>
+            </div>
+            <div class="gallery-item" data-category="bar">
+              <div class="gallery-placeholder bar-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Kopli Couture</h4>
+            <p>A unique blend of vintage fashion and modern cocktail culture in the heart of Kopli.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="events.html">Events & Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Visit Us</h4>
+            <address>
+              Kopli Street 123<br>
+              Tallinn, Estonia<br>
+              <a href="mailto:info@koplicouture.ee">info@koplicouture.ee</a>
+            </address>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Kopli Couture. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
